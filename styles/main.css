@@ -1,2 +1,26 @@
 @charset "utf-8";
-
+body {
+background-color: #000;
+font-family: Arial, Helvetica, sans-serif;
+width: 600px;
+margin-left: 10%;
+}
+body,td,th {
+color: #FFF;
+}
+h1 {
+    font-weight: bold;
+    color: #FFF;
+}
+p{
+  padding: 10px;
+  background-color: #6e6e6e;
+}
+a {
+    color:#FFF;
+}
+li{
+  font-weight: bold;
+  padding-left: 20PX;
+  text-transform: uppercase;
+}
