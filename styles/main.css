@@ -10,7 +10,7 @@ color: #FFF;
 }
 h1 {
     font-weight: bold;
-    color: #FFF;
+    color: #e68a00;
 }
 p{
   padding: 10px;
@@ -18,9 +18,15 @@ p{
 }
 a {
     color:#FFF;
+    padding: 5px;
+    background-color: #e68a00;
+}
+ul {
+  list-style-type: none;
 }
 li{
   font-weight: bold;
   padding-left: 20PX;
   text-transform: uppercase;
+  margin-bottom: 20px;
 }
