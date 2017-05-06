@@ -1,12 +1,12 @@
 @charset "utf-8";
 body {
-background-color: #000;
-font-family: Arial, Helvetica, sans-serif;
-width: 600px;
-margin-left: 10%;
+  background-color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 600px;
+  margin-left: 10%;
 }
 body,td,th {
-color: #FFF;
+  color: #FFF;
 }
 h1 {
     font-weight: bold;
@@ -17,9 +17,9 @@ p{
   background-color: #6e6e6e;
 }
 a {
-    color:#FFF;
-    padding: 5px;
-    background-color: #e68a00;
+  color:#000;
+  padding: 5px;
+  background-color: #e68a00;
 }
 ul {
   list-style-type: none;
