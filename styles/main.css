@@ -2,32 +2,72 @@
 body {
   background-color: #000;
   font-family: Arial, Helvetica, sans-serif;
-  width: 600px;
-  margin-left: 10%;
+  height: 100%;
+  width: 100%;
+  /*background-image: url(../img/Crosses_03.jpg);
+  background-position: 370px,0;*/
 }
-body,td,th {
+
+body, td, th {
   color: #FFF;
+  margin: 0;
+  padding: 0;
 }
+
 h1 {
-    font-weight: bold;
-    color: #e68a00;
+  font-weight: bold;
+  /*color: #e68a00;
+    background-color: #000;*/
+  color: #F30;
+  padding-left: 16%;
 }
-p{
+
+p {
   padding: 10px;
-  background-color: #6e6e6e;
+  background-color: #000;
 }
+
 a {
-  color:#000;
+  color: #000;
   padding: 5px;
   font-weight: bold;
-  background-color: #e68a00;
+  /*background-color: #e68a00;*/
 }
+
 ul {
   list-style-type: none;
 }
-li{
-  font-weight: bold;
-  padding-left: 20PX;
-  text-transform: uppercase;
+
+li {
+  padding-left: 20px;
+  text-transform: lowercase;
   margin-bottom: 20px;
+}
+
+.Container {
+  width: 75%;
+  display: flex;
+}
+
+.hull-title {
+  color: #fff;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 28px;
+  border-bottom: 2px solid #fff;
+}
+
+.hull {
+  width: 660px;
+  height: 700px;
+  margin-left: 40%;
+  margin-top: 2%;
+  overflow: auto;
+}
+
+.Menu {
+  background-color: #fff;
+  width: 25%;
+  height: 100%;
+  position: absolute;
 }
