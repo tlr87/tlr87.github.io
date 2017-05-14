@@ -1,11 +1,25 @@
-@charset "utf-8";
+/*@media*/
+@media screen and (max-width: 1110px) {
+  .Title {
+    font-size: 100%;
+  }
+  li {
+    padding-left: 0px;
+  }
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 body {
   background-color: #000;
   font-family: Arial, Helvetica, sans-serif;
   height: 100%;
   width: 100%;
-  /*background-image: url(../img/Crosses_03.jpg);
-  background-position: 370px,0;*/
 }
 
 body, td, th {
@@ -16,10 +30,9 @@ body, td, th {
 
 h1 {
   font-weight: bold;
-  /*color: #e68a00;
-    background-color: #000;*/
   color: #F30;
   padding-left: 16%;
+  font-size: 100%;
 }
 
 p {
@@ -31,7 +44,6 @@ a {
   color: #000;
   padding: 5px;
   font-weight: bold;
-  /*background-color: #e68a00;*/
 }
 
 ul {
@@ -44,8 +56,12 @@ li {
   margin-bottom: 20px;
 }
 
+.Title {
+  font-size: 200%;
+}
+
 .Container {
-  width: 75%;
+  width: 100%;
   display: flex;
 }
 
@@ -58,7 +74,7 @@ li {
 }
 
 .hull {
-  width: 660px;
+  width: 75%;
   height: 700px;
   margin-left: 40%;
   margin-top: 2%;
