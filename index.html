@@ -1,11 +1,56 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title></title>
-    <meta charset="UTF-8">
 
-  </head>
-  <body>
+<head>
+  <title>Home</title>
+  <meta charset="UTF-8">
+  <!-- CSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+  <link rel="stylesheet" href="styles/main.css">
 
-  </body>
+</head>
+
+<body>
+
+  <!-- .container is main centered wrapper -->
+  <div class="container">
+    <div class="row">
+      <div id="title-column-menu" class="four columns grey">
+        <div class="title-menu">
+          <h2>Game Dev Pipleines</h2></div>
+        <div class="info-menu">
+          <h5>Nullam semper tristique.</h5>
+          <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+        </div>
+        <div class="list-menu">
+          <ul>
+            <li>Item 1</li>
+            <li>
+              Item 2
+              <ul>
+                <li>Item 2.1</li>
+                <li>Item 2.2</li>
+              </ul>
+            </li>
+            <li>Item 3</li>
+          </ul>
+        </div>
+      </div>
+      <div id="image-content-main" class="eight columns grey">
+        <div class="image-main"><a href="http://placehold.it"><img src="http://placehold.it/600x600"></a></div>
+          <div class="content-main">
+            <h6>Nullam semper tristique.</h6>
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+            <p>Aliquam ut leo arcu. Pellentesque sed pretium erat, fermentum vehicula est.</p>
+            <p>Maecenas lectus ante, semper et dolor sit amet, finibus finibus est.</p>
+          </div>
+      </div>
+    </div>
+    <!-- Note: columns can be nested, but it's not recommended since Skeleton's grid has %-based gutters, meaning a nested grid results in variable with gutters (which can end up being *really* small on certain browser/device sizes) -->
+
+
+</body>
+
 </html>

@@ -1,0 +1,34 @@
+/* Background Colors*/
+
+.black {
+  background-color: #000
+}
+
+.grey {
+  background-color: #5b5b5b
+}
+
+
+/* Custom div classs*/
+
+.title-menu {
+  height: 20%;
+}
+
+.info-menu {
+  height: 20%;
+}
+
+.list-menu {
+  height: 60%;
+}
+
+.image-main img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Custom SKELETON overides*/
+.column, .columns {
+    margin-left: 0 !important;
+}
