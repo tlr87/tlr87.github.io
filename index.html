@@ -16,8 +16,8 @@
 
   <!-- .container is main centered wrapper -->
   <div class="container">
-    <div class="row grey">
-      <div id="title-column-menu" class="four columns grey">
+    <div class="row black">
+      <div id="title-column-menu" class="four columns white">
         <div class="menu-common title-menu">
           <h2>Game Dev Pipleines</h2></div>
         <div class="menu-common info-menu">
@@ -26,18 +26,43 @@
         </div>
         <div class="menu-common list-menu">
           <h6>Menu</h6>
-          <ul>
-            <li><a href="/blog/c1-reflection-blog.html">c1-reflection-blog</a></li>
-            <li><a href="/blog/c1-time-and-habits-blog.html">c1-time-and-habits-blog</a></li>
-            <li><a href="/blog/c2-emotional-intelligence.html">c2-emotional-intelligence</a></li>
-            <li><a href="/blog/t2-html-css-dom-p1.html">t2-html-css-dom-p1</a></li>
-            <li><a href="/blog/t2-html-css-dom-p2.html">t2-html-css-dom-p2</a></li>
-            <li><a href="../index.html">Back-to-home</a></li>
-            <li><a href="/styles/main.css">CSS file</a></li>
-          </ul>
+
+          <!-- Mobile Menu Start -->
+                    <div class="list-menu-moblie">
+                      <div class="dropdown">
+                        <div class="icon-button"><span>
+                        </span></div>
+                        <div class="dropdown-content">
+                          <ul>
+                            <li><a href="/blog/c1-reflection-blog.html">c1-reflection-blog</a></li>
+                            <li><a href="/blog/c1-time-and-habits-blog.html">c1-time-and-habits-blog</a></li>
+                            <li><a href="/blog/c2-emotional-intelligence.html">c2-emotional-intelligence</a></li>
+                            <li><a href="/blog/t2-html-css-dom-p1.html">t2-html-css-dom-p1</a></li>
+                            <li><a href="/blog/t2-html-css-dom-p2.html">t2-html-css-dom-p2</a></li>
+                            <li><a href="../index.html">Back-to-home</a></li>
+                            <li><a href="/styles/main.css">CSS file</a></li>
+                          </ul>
+                        </div>
+                      </div>
+            	</div>
+              	<!-- Mobile Menu End -->
+
+          <!-- Desktop Menu Start -->
+          <div class="list-menu-desktop">
+            <ul>
+              <li><a href="/blog/c1-reflection-blog.html">c1-reflection-blog</a></li>
+              <li><a href="/blog/c1-time-and-habits-blog.html">c1-time-and-habits-blog</a></li>
+              <li><a href="/blog/c2-emotional-intelligence.html">c2-emotional-intelligence</a></li>
+              <li><a href="/blog/t2-html-css-dom-p1.html">t2-html-css-dom-p1</a></li>
+              <li><a href="/blog/t2-html-css-dom-p2.html">t2-html-css-dom-p2</a></li>
+              <li><a href="../index.html">Back-to-home</a></li>
+              <li><a href="/styles/main.css">CSS file</a></li>
+            </ul>
+          </div>
+          <!-- Desktop Menu End -->
         </div>
       </div>
-      <div id="image-content-main" class="eight columns grey">
+      <div id="image-content-main" class="eight columns black">
         <div class="image-main">
           <a href="http://placehold.it"><img src="http://placehold.it/600x600"></a>
           <div class="content-common content-main">
@@ -49,7 +74,7 @@
     </div>
     <!-- Note: columns can be nested, but it's not recommended since Skeleton's grid has %-based gutters, meaning a nested grid results in variable with gutters (which can end up being *really* small on certain browser/device sizes) -->
     <div class="row">
-      <div class="footer-common footer grey">footer stuff goes here © 2017.</div>
+      <div class="footer-common footer black">footer stuff goes here © 2017.</div>
     </div>
   </div>
 </body>
