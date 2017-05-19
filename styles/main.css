@@ -8,21 +8,18 @@ body{
 		height:100%;
 }
 
-h6{
-	 border-bottom: thick #000;
-}
-
-
 .list-menu-moblie{
   display: none;
 }
-
-
 
 /* @media queries*/
 
 @media screen and (max-width: 500px)
 {
+
+.Menu-title{
+  font-size: 30px;
+}
 
 .image-main img  {
   width: 100%;
@@ -46,17 +43,15 @@ display: none;
 }
 
 }
-
-
 .icon-button{
-	height: 100px;
+	height: 50px;
 	width: 100px;
 	background-image: url(../images/Button-menu-up.png);
 	background-repeat:no-repeat;
 }
 
 .icon-button:hover{
-	height: 100px;
+	height: 50px;
 	width: 100px;
 	background-image: url(../images/Button-menu-down.png);
 }
@@ -104,8 +99,6 @@ display: none;
 	width: 70%;
 }
 
-
-
 .title-menu {
   height: 20%;
 }
@@ -138,8 +131,8 @@ display: none;
 
 .dropdown-content {
     display: none;
-    position: absolute;
-    background-color: #f9f9f9;
+    position: inherit;
+    background-color: #000;
     min-width: 380px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 12px 16px;
