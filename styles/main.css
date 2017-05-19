@@ -149,7 +149,7 @@ display: none;
     min-width: 350px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 30px 0px;
-    margin: 130% 50%;
+    margin: 130% 0%;
     z-index: 1;
 }
 
