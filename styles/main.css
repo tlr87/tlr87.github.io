@@ -51,6 +51,11 @@ body {
 	width: 51px;
 	background-image: url(../images/Button-menu-down.png);
 }
+
+.whiteText {
+	color: #fff;
+}
+
 /* Background Colors*/
 .white {
 	background-color: #fff;
