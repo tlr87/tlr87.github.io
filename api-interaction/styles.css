@@ -1,0 +1,89 @@
+html, body {
+  margin: 0px;
+  padding: 0px;
+  min-height: 100%;
+  height: 100%;
+  background-color: #777777;
+  font-family: sans-serif;
+}
+
+.container {
+  margin: auto;
+  margin-top: 10px;
+}
+
+.center {
+  margin: auto;
+  padding: 10px;
+}
+
+.quoteColour {
+  color: #5F7A37;
+}
+
+.quoteBox {
+  height: 50%;
+  width: 50%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  margin-top: 11%;
+  padding: 5%;
+  -webkit-box-shadow: 10px 11px 64px 6px rgba(0, 0, 0, 0.61);
+  -moz-box-shadow: 10px 11px 64px 6px rgba(0, 0, 0, 0.61);
+  box-shadow: 10px 11px 64px 6px rgba(0, 0, 0, 0.61);
+}
+
+.button {
+  background-color: #354918;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  display: block;
+  width: 35%;
+  margin: 4% auto;
+  -webkit-box-shadow: 10px 11px 64px 6px rgba(0, 0, 0, 0.61);
+  -moz-box-shadow: 10px 11px 64px 6px rgba(0, 0, 0, 0.61);
+  box-shadow: 10px 11px 64px 6px rgba(0, 0, 0, 0.61);
+}
+
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 5%;
+  width: 100%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  margin-top: 11%;
+  text-align: center;
+}
+
+
+/*background image css*/
+
+.image1 {
+  background-image: url(images/BG_0000_Girl.jpg);
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
+.image2 {
+  background: url(images/BG_0001_Mother.jpg);
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
+.image3 {
+  background: url(images/BG_0002_Granny.jpg);
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
+.image4 {
+  background: url(images/BG_0003_Grampa.jpg);
+  background-repeat: no-repeat;
+  background-position: right top;
+}
