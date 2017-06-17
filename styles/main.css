@@ -13,32 +13,35 @@ body {
 
 /* @media queries*/
 
-@media screen and (max-width: 500px) {
-.Menu-title {
-	font-size: 30px;
-}
-.image-main img {
-	width: 100%;
-}
-.list-menu-desktop {
-	display: none;
-}
-.list-menu-moblie {
-	display: inline-flex;
-}
-.info-menu {
-	display: none;
-}
-.content-main {
-	width: 88%!important;
-	margin: 0 auto;
-}
-.title-menu {
-	background-image: url(../images/background.png);
-	color: #fff;
-	background-position:95% 75%;
-}
-}
+  @media screen and (max-width: 500px) {
+    .Menu-title {
+      font-size: 30px;
+    }
+    .image-main img {
+      width: 100%;
+    }
+    .list-menu-desktop {
+      display: none;
+    }
+    .list-menu-moblie {
+      display: inline-flex;
+    }
+    .info-menu {
+      display: none;
+    }
+    .content-main {
+      width: 88%!important;
+      margin: 0 auto;
+    }
+    .title-menu {
+      background-image: url(../images/background.png);
+      color: #fff;
+      background-position: 95% 75%;
+    }
+    li {
+      width: 100%;
+    }
+  }
 .icon-button {
 	height: 50px;
 	width: 51px;
