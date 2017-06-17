@@ -38,9 +38,6 @@ body {
       color: #fff;
       background-position: 95% 75%;
     }
-    li {
-      width: 100%!important;
-    }
   }
 .icon-button {
 	height: 50px;
@@ -152,7 +149,6 @@ li {
   list-style-type: none;
   background-color: #ff954b;
   color: #fff;
-  width: 50%;
 }
 
 li a {
