@@ -76,6 +76,11 @@ body {
 	border-width: 4px 0 4px 0px;
 	padding: 25px;
 }
+
+h5.Menu-title {
+	color: #fff;
+}
+
 .content-common {
 	padding: 25px;
 }
@@ -91,12 +96,14 @@ body {
 }
 .title-menu {
 	height: 20%;
+	background-color: #FF5B00;
 }
 .info-menu {
 	height: 20%;
 }
 .list-menu {
 	height: 60%;
+	background-color: #1b1b1b;
 }
 .footer {
 	width: 100%;
@@ -133,6 +140,20 @@ body {
 	padding: 0;
 	box-sizing: border-box;
 	float: left;
+}
+
+li {
+  font-weight: bold;
+  padding-left: 20PX;
+  text-transform: uppercase;
+  list-style-type: none;
+  background-color: #ff954b;
+  color: #fff;
+  width: 50%;
+}
+
+li a {
+  color: #000;
 }
 
 
