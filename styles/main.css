@@ -39,7 +39,7 @@ body {
       background-position: 95% 75%;
     }
     li {
-      width: 100%;
+      width: 100%!important;
     }
   }
 .icon-button {
