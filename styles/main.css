@@ -15,16 +15,16 @@ body {
 
 /* @media queries*/
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 375px) {
   #image-content-main {
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 117, 0, 0.8) !important;
     -webkit-box-shadow: 10px 11px 64px 6px rgba(0, 0, 0, 0.61);
     -moz-box-shadow: 10px 11px 64px 6px rgba(0, 0, 0, 0.61);
     box-shadow: 10px 11px 64px 6px rgba(0, 0, 0, 0.61);
-    padding: 2%;
-    width: 100%;
-    overflow: auto;
-    height: 100%;
+    padding: 0% !important;
+    overflow: initial !important;
+    width: inherit !important;
+    height: inherit !important;
   }
   .Menu-title {
     font-size: 30px;
@@ -42,14 +42,22 @@ body {
     display: none;
   }
   .content-main {
-    width: 88%!important;
-    margin: 0 auto;
+    width: 88% !important;
   }
   .title-menu {
     background-image: url(../images/background.png);
     color: #fff;
     background-position: 95% 75%;
   }
+  img {
+    height: 10%;
+    width: 90% !important;
+  }
+
+  .content-common.content-main {
+      width: 65% !important;
+  }
+
 }
 
 .icon-button {
